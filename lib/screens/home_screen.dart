@@ -23,6 +23,7 @@ class _HomePageState extends State<HomePage> {
 
     final productProvider = Provider.of<ProductProvider>(context);
 
+
     /// Filter products by title
     List<Product> filteredProducts = productProvider.products
         .where((product) => product.title

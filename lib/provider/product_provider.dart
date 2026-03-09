@@ -57,6 +57,7 @@ class ProductProvider with ChangeNotifier {
     return await ApiService().searchProducts(query);
   }
 
+
   /// REFRESH PRODUCTS (Pull to Refresh)
   Future<void> refreshProducts() async {
 

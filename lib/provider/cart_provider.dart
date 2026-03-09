@@ -62,6 +62,7 @@ class CartProvider with ChangeNotifier {
     }
   }
 
+
   Future<void> fetchProducts() async {
     _products = await ApiService().fetchProducts(10, 0);
     notifyListeners();

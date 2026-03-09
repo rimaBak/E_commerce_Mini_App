@@ -242,6 +242,7 @@ class _CartPageState extends State<CartPage> {
     /// 3️⃣ CLEAR CART STATE
     cartProvider.clearCart();
 
+
     /// 4️⃣ SUCCESS DIALOG
     showDialog(
       context: context,

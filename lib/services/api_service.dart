@@ -16,6 +16,7 @@ class ApiService {
     }
   }
 
+
   Future<List<Product>> searchProducts(String query) async {
     final response = await http.get(Uri.parse("$baseUrl/products?q=$query"));
     if (response.statusCode == 200) {

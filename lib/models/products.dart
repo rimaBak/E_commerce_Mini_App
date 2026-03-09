@@ -15,6 +15,7 @@ class Product {
     required this.rating,
   });
 
+
   factory Product.fromJson(Map<String, dynamic> json) {
     return Product(
       id: json['id'],
